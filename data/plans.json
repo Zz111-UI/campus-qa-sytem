@@ -1,0 +1,6952 @@
+{
+ "计算机科学与技术": {
+  "major": "计算机科学与技术",
+  "college": "信息科学与技术学院",
+  "grade": 2025,
+  "duration": "4年",
+  "grad_credit": 162,
+  "degree": "工学",
+  "section_req": {
+   "公共基础必修": 63.0,
+   "实践环节必修": 30.0,
+   "专业必修": 34.0,
+   "专业选修": 23.0,
+   "实践环节选修": 1.0,
+   "素质教育课程": 5.0,
+   "素质教育实践": 5.0,
+   "公共基础选修": 1.0
+  },
+  "n_courses": 111,
+  "parsed_credit": 212.0,
+  "sections": {
+   "公共基础必修": 61.0,
+   "实践环节必修": 21.5,
+   "专业必修": 34.0,
+   "专业选修": 70.5,
+   "实践环节选修": 12.0,
+   "素质教育课程": 1.0,
+   "素质教育实践": 2.0,
+   "公共基础选修": 10.0
+  },
+  "courses": [
+   {
+    "code": "ENG11220",
+    "name": "大学英语1",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI14401",
+    "name": "习近平新时代中国特色社会主义思想概论",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "HSS18201",
+    "name": "大学生心理健康教育",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI19001",
+    "name": "思想道德与法治实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI17202",
+    "name": "思想道德与法治",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10001",
+    "name": "体育(Ⅰ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT11501",
+    "name": "线性代数A",
+    "credit": 3.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13904",
+    "name": "高等数学A（I）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10200",
+    "name": "军事理论",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11221",
+    "name": "大学英语2",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY11600",
+    "name": "普通物理(Ⅰ)",
+    "credit": 4.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13905",
+    "name": "高等数学A（II）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI12400",
+    "name": "中国近现代史纲要",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT10401",
+    "name": "概率论与数理统计B",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI10011",
+    "name": "国家安全教育",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10002",
+    "name": "体育(Ⅱ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI21400",
+    "name": "马克思主义基本原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE20000",
+    "name": "体育(Ⅲ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY21601",
+    "name": "普通物理(Ⅱ)",
+    "credit": 4.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11222",
+    "name": "大学英语3",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE20001",
+    "name": "体育(Ⅳ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI13401",
+    "name": "毛泽东思想和中国特色社会主义理论体系概论",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11223",
+    "name": "大学英语4",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "BUS16200",
+    "name": "技术经济与企业管理",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENV20100",
+    "name": "环境工程基础",
+    "credit": 1.5,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE19200",
+    "name": "军事技能",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE27202",
+    "name": "高级语言程序实践",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "PHY11000",
+    "name": "大学物理实验(I)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE19000",
+    "name": "程序设计实训",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "MEE29001",
+    "name": "工程训练",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "PHY11001",
+    "name": "大学物理实验(II)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE21000",
+    "name": "数据结构实验",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE11001",
+    "name": "数字逻辑实验",
+    "credit": 0.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE29101",
+    "name": "电工电子实习",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE32000",
+    "name": "计算机组成原理实验",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE29301",
+    "name": "认识实习",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE37001",
+    "name": "数据库原理课程设计",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE38001",
+    "name": "软件工程课程设计",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE39304",
+    "name": "生产实习",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE49400",
+    "name": "计算机系统综合设计",
+    "credit": 3.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE14404",
+    "name": "程序设计基础",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "MAT21601",
+    "name": "离散数学",
+    "credit": 4.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE11402",
+    "name": "电路与模拟电子技术",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE21400",
+    "name": "数据结构",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE11303",
+    "name": "数字逻辑",
+    "credit": 2.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE22400",
+    "name": "计算机组成原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE32503",
+    "name": "操作系统原理",
+    "credit": 3.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE37500",
+    "name": "数据库原理",
+    "credit": 3.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE32500",
+    "name": "编译原理",
+    "credit": 3.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE48300",
+    "name": "软件工程",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE33301",
+    "name": "计算机网络",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE10102",
+    "name": "计算机科学导论",
+    "credit": 1.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE10201",
+    "name": "信息与智能科学导论",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MEE11200",
+    "name": "工程制图",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE10101",
+    "name": "大数据科学与技术导论",
+    "credit": 1.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE24302",
+    "name": "汇编语言程序设计",
+    "credit": 2.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE49000",
+    "name": "计算机科学前沿讲座",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE37102",
+    "name": "大数据采集技术",
+    "credit": 1.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE26100",
+    "name": "MATLAB基础与应用",
+    "credit": 1.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE24204",
+    "name": "Java程序设计",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE21200",
+    "name": "算法设计与分析",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE24312",
+    "name": "面向对象程序设计",
+    "credit": 2.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE37204",
+    "name": "大数据治理技术",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE31202",
+    "name": "机器学习导论",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MAT21300",
+    "name": "数论与组合数学",
+    "credit": 2.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE33106",
+    "name": "虚拟化与云计算技术",
+    "credit": 1.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE37401",
+    "name": "大数据处理框架",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE31302",
+    "name": "计算机视觉",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE32301",
+    "name": "计算机系统结构",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE37203",
+    "name": "数据挖掘",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE37403",
+    "name": "模式识别基础",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE33107",
+    "name": "分布式系统导论",
+    "credit": 1.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE43300",
+    "name": "数字图像处理",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE35300",
+    "name": "微机接口技术",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE33203",
+    "name": "数字媒体技术",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MAT36200",
+    "name": "计算方法",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE37301",
+    "name": "大数据存储技术",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE37101",
+    "name": "人工智能技术及应用",
+    "credit": 1.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE37101",
+    "name": "数据仓库技术",
+    "credit": 1.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE36300",
+    "name": "嵌入式系统设计",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE44201",
+    "name": "深度学习导论",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE24207",
+    "name": "Python数据分析与可视化",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE24206",
+    "name": "并行程序设计",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE48200",
+    "name": "软件测试技术",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE37000",
+    "name": "信息检索与科技论文写作",
+    "credit": 1.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MXI35200",
+    "name": "当代世界经济与政治",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE32200",
+    "name": "ACM/ICPC程序设计方法与实践",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "CSE27101",
+    "name": "微信小程序开发与实践",
+    "credit": 1.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "CSE22101",
+    "name": "Linux基础原理与实践",
+    "credit": 1.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE21001",
+    "name": "智能硬件设计与开发",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE31002",
+    "name": "电子技术创新设计",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE37003",
+    "name": "模式识别基础实验",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE37001",
+    "name": "神经网络软硬件协同设计",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE37002",
+    "name": "人工智能医学应用实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "CSE39002",
+    "name": "大数据处理框架实验",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "CSE39003",
+    "name": "大数据存储技术实验",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "GST14027",
+    "name": "人工智能导论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育课程"
+   },
+   {
+    "code": "ART19001",
+    "name": "美育实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育实践"
+   },
+   {
+    "code": "LAB21002",
+    "name": "劳动与社会实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育实践"
+   },
+   {
+    "code": "MXI14004",
+    "name": "中华民族共同体概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14002",
+    "name": "习近平生态文明思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10009",
+    "name": "中国共产党的光辉历程和伟大成就",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10007",
+    "name": "社会主义道路探索史",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14005",
+    "name": "习近平新时代中国特色社会主义思想在京华大地生动实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14003",
+    "name": "习近平法治思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10008",
+    "name": "社会主义五百年",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "PHY11004",
+    "name": "普通物理习题课（I）",
+    "credit": 0.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10006",
+    "name": "中国共产党与改革开放",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10010",
+    "name": "中国共产党人的精神谱系",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14001",
+    "name": "习近平文化思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "PHY11003",
+    "name": "普通物理习题课（II）",
+    "credit": 0.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   }
+  ]
+ },
+ "人工智能": {
+  "major": "人工智能",
+  "college": "信息科学与技术学院",
+  "grade": 2025,
+  "duration": "4年",
+  "grad_credit": 168,
+  "degree": "工学",
+  "section_req": {
+   "公共基础必修": 66.5,
+   "实践环节必修": 31.0,
+   "专业必修": 34.0,
+   "专业选修": 24.5,
+   "公共基础选修": 1.0,
+   "实践环节选修": 1.0,
+   "素质教育课程": 5.0,
+   "素质教育实践": 5.0
+  },
+  "n_courses": 108,
+  "parsed_credit": 215.5,
+  "sections": {
+   "公共基础必修": 64.5,
+   "实践环节必修": 22.5,
+   "专业必修": 34.0,
+   "专业选修": 74.0,
+   "公共基础选修": 10.0,
+   "实践环节选修": 7.5,
+   "素质教育课程": 1.0,
+   "素质教育实践": 2.0
+  },
+  "courses": [
+   {
+    "code": "HSS18201",
+    "name": "大学生心理健康教育",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI17202",
+    "name": "思想道德与法治",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI19001",
+    "name": "思想道德与法治实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11220",
+    "name": "大学英语1",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10001",
+    "name": "体育(Ⅰ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13904",
+    "name": "高等数学A（I）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI14401",
+    "name": "习近平新时代中国特色社会主义思想概论",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT11501",
+    "name": "线性代数A",
+    "credit": 3.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI12400",
+    "name": "中国近现代史纲要",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13905",
+    "name": "高等数学A（II）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY11600",
+    "name": "普通物理(Ⅰ)",
+    "credit": 4.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10200",
+    "name": "军事理论",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11221",
+    "name": "大学英语2",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT10401",
+    "name": "概率论与数理统计B",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI10011",
+    "name": "国家安全教育",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10002",
+    "name": "体育(Ⅱ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11222",
+    "name": "大学英语3",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY21601",
+    "name": "普通物理(Ⅱ)",
+    "credit": 4.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI21400",
+    "name": "马克思主义基本原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13501",
+    "name": "复变函数与积分变换（A）",
+    "credit": 3.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE20000",
+    "name": "体育(Ⅲ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11223",
+    "name": "大学英语4",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE20001",
+    "name": "体育(Ⅳ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI13401",
+    "name": "毛泽东思想和中国特色社会主义理论体系概论",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "BUS16200",
+    "name": "技术经济与企业管理",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENV20100",
+    "name": "环境工程基础",
+    "credit": 1.5,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE19200",
+    "name": "军事技能",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE27202",
+    "name": "高级语言程序实践",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "PHY11000",
+    "name": "大学物理实验(I)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "MEE29001",
+    "name": "工程训练",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE19000",
+    "name": "程序设计实训",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "PHY11001",
+    "name": "大学物理实验(II)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE21000",
+    "name": "数据结构实验",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE37002",
+    "name": "神经网络与深度学习实验",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE11001",
+    "name": "数字逻辑实验",
+    "credit": 0.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE29101",
+    "name": "电工电子实习",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE29301",
+    "name": "认识实习",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE37003",
+    "name": "模式识别基础实验",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE37004",
+    "name": "机器学习实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE37001",
+    "name": "图像理解与机器视觉实验",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39306",
+    "name": "生产实习",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE47401",
+    "name": "人工智能综合实训",
+    "credit": 3.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE14404",
+    "name": "程序设计基础",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "MAT21301",
+    "name": "离散数学(Ⅰ)",
+    "credit": 2.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE21400",
+    "name": "数据结构",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE11402",
+    "name": "电路与模拟电子技术",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE37404",
+    "name": "神经网络与深度学习",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE11303",
+    "name": "数字逻辑",
+    "credit": 2.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE33400",
+    "name": "信号与系统",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE37405",
+    "name": "人工智能基础",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE37402",
+    "name": "机器学习",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE37403",
+    "name": "模式识别基础",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE44202",
+    "name": "自然语言理解",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE37401",
+    "name": "图像理解与机器视觉",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE10102",
+    "name": "计算机科学导论",
+    "credit": 1.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MEE11200",
+    "name": "工程制图",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE10201",
+    "name": "信息与智能科学导论",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE10101",
+    "name": "大数据科学与技术导论",
+    "credit": 1.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE24302",
+    "name": "汇编语言程序设计",
+    "credit": 2.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE26100",
+    "name": "MATLAB基础与应用",
+    "credit": 1.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MAT21300",
+    "name": "数论与组合数学",
+    "credit": 2.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE21200",
+    "name": "算法设计与分析",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE34402",
+    "name": "自动控制原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE21300",
+    "name": "EDA原理及其应用",
+    "credit": 2.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE22400",
+    "name": "计算机组成原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE32503",
+    "name": "操作系统原理",
+    "credit": 3.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE37500",
+    "name": "数据库原理",
+    "credit": 3.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MAT36200",
+    "name": "计算方法",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE33400",
+    "name": "数字信号处理",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE33001",
+    "name": "信号分析处理与实验",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE36300",
+    "name": "嵌入式系统设计",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE24206",
+    "name": "并行程序设计",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE45202",
+    "name": "生物化学传感器",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE38202",
+    "name": "医学信息处理",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE37302",
+    "name": "工业大数据技术",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE37301",
+    "name": "机器人机构学",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE33301",
+    "name": "计算机网络",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "BME32400",
+    "name": "现代医学检验",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE37302",
+    "name": "机器人感知技术",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE37301",
+    "name": "数据挖掘原理",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE34204",
+    "name": "微机电系统（MEMS）",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE48300",
+    "name": "软件工程",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE45200",
+    "name": "多传感器信息融合",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE47301",
+    "name": "机器人智能控制",
+    "credit": 2.5,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE37000",
+    "name": "信息检索与科技论文写作",
+    "credit": 1.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE48202",
+    "name": "可穿戴智慧医学诊疗",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE47002",
+    "name": "人工智能学科前沿讲座",
+    "credit": 1.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MXI14004",
+    "name": "中华民族共同体概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10007",
+    "name": "社会主义道路探索史",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14002",
+    "name": "习近平生态文明思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14005",
+    "name": "习近平新时代中国特色社会主义思想在京华大地生动实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10009",
+    "name": "中国共产党的光辉历程和伟大成就",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10006",
+    "name": "中国共产党与改革开放",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10010",
+    "name": "中国共产党人的精神谱系",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "PHY11004",
+    "name": "普通物理习题课（I）",
+    "credit": 0.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10008",
+    "name": "社会主义五百年",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14001",
+    "name": "习近平文化思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14003",
+    "name": "习近平法治思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "PHY11003",
+    "name": "普通物理习题课（II）",
+    "credit": 0.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "CSE32200",
+    "name": "ACM/ICPC程序设计方法与实践",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "CSE27101",
+    "name": "微信小程序开发与实践",
+    "credit": 1.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE21001",
+    "name": "智能硬件设计与开发",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE31002",
+    "name": "电子技术创新设计",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE37002",
+    "name": "人工智能医学应用实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE37001",
+    "name": "神经网络软硬件协同设计",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "GST14027",
+    "name": "人工智能导论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育课程"
+   },
+   {
+    "code": "ART19001",
+    "name": "美育实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育实践"
+   },
+   {
+    "code": "LAB21002",
+    "name": "劳动与社会实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育实践"
+   }
+  ]
+ },
+ "自动化": {
+  "major": "自动化",
+  "college": "信息科学与技术学院",
+  "grade": 2025,
+  "duration": "4年",
+  "grad_credit": 167,
+  "degree": "工学",
+  "section_req": {
+   "公共基础必修": 70.5,
+   "专业必修": 31.0,
+   "实践环节必修": 34.5,
+   "公共基础选修": 1.0,
+   "专业选修": 18.0,
+   "实践环节选修": 2.0,
+   "素质教育课程": 5.0,
+   "素质教育实践": 5.0
+  },
+  "n_courses": 113,
+  "parsed_credit": 211.0,
+  "sections": {
+   "公共基础必修": 68.5,
+   "专业必修": 31.0,
+   "实践环节必修": 26.0,
+   "公共基础选修": 10.0,
+   "专业选修": 65.5,
+   "实践环节选修": 7.0,
+   "素质教育课程": 1.0,
+   "素质教育实践": 2.0
+  },
+  "courses": [
+   {
+    "code": "HSS18201",
+    "name": "大学生心理健康教育",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11220",
+    "name": "大学英语1",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI14401",
+    "name": "习近平新时代中国特色社会主义思想概论",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI19001",
+    "name": "思想道德与法治实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI17202",
+    "name": "思想道德与法治",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "CSE17001",
+    "name": "大学计算机",
+    "credit": 0.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10001",
+    "name": "体育(Ⅰ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT11501",
+    "name": "线性代数A",
+    "credit": 3.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13904",
+    "name": "高等数学A（I）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY11600",
+    "name": "普通物理(Ⅰ)",
+    "credit": 4.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT10401",
+    "name": "概率论与数理统计B",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI10011",
+    "name": "国家安全教育",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11221",
+    "name": "大学英语2",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MEE11200",
+    "name": "工程制图",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10200",
+    "name": "军事理论",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI12400",
+    "name": "中国近现代史纲要",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "CSE14204",
+    "name": "C语言程序设计",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10002",
+    "name": "体育(Ⅱ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY11004",
+    "name": "普通物理习题课（I）",
+    "credit": 0.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13905",
+    "name": "高等数学A（II）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11222",
+    "name": "大学英语3",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13501",
+    "name": "复变函数与积分变换（A）",
+    "credit": 3.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI21400",
+    "name": "马克思主义基本原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE20000",
+    "name": "体育(Ⅲ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY21601",
+    "name": "普通物理(Ⅱ)",
+    "credit": 4.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE20001",
+    "name": "体育(Ⅳ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI13401",
+    "name": "毛泽东思想和中国特色社会主义理论体系概论",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11223",
+    "name": "大学英语4",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "BUS16200",
+    "name": "技术经济与企业管理",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENV20100",
+    "name": "环境工程基础",
+    "credit": 1.5,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "EEE21410",
+    "name": "数字电子技术",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE11401",
+    "name": "电路原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE34402",
+    "name": "自动控制原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE35400",
+    "name": "微机原理及接口技术",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE21503",
+    "name": "模拟电子技术",
+    "credit": 3.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE34401",
+    "name": "现代控制理论",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE35404",
+    "name": "自动化装置（I）",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE35405",
+    "name": "自动检测技术及仪表",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CHE11401",
+    "name": "化工原理",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE44500",
+    "name": "过程控制工程",
+    "credit": 3.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "PHE19200",
+    "name": "军事技能",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "PHY11000",
+    "name": "大学物理实验(I)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE19000",
+    "name": "程序设计实训",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE21002",
+    "name": "电子技术实验（Ⅰ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "PHY11001",
+    "name": "大学物理实验(II)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "MEE29201",
+    "name": "工程训练",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE21003",
+    "name": "电子技术实验(Ⅱ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE29101",
+    "name": "电工电子实习",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE27201",
+    "name": "信息物理系统实践",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39103",
+    "name": "应用软件实践",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE29301",
+    "name": "认识实习",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CHE49000",
+    "name": "化工过程与控制仿真实习",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39201",
+    "name": "电子技术课程设计",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39000",
+    "name": "电气工程综合实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE49000",
+    "name": "控制工程综合实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39306",
+    "name": "生产实习",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE49604",
+    "name": "控制工程课程设计",
+    "credit": 3.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "MXI14002",
+    "name": "习近平生态文明思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10009",
+    "name": "中国共产党的光辉历程和伟大成就",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14004",
+    "name": "中华民族共同体概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14005",
+    "name": "习近平新时代中国特色社会主义思想在京华大地生动实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10007",
+    "name": "社会主义道路探索史",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14001",
+    "name": "习近平文化思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10008",
+    "name": "社会主义五百年",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10006",
+    "name": "中国共产党与改革开放",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14003",
+    "name": "习近平法治思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10010",
+    "name": "中国共产党人的精神谱系",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "PHY11003",
+    "name": "普通物理习题课（II）",
+    "credit": 0.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "CSE14001",
+    "name": "Python语言程序设计",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE37000",
+    "name": "信息检索与科技论文写作",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 3,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE26100",
+    "name": "MATLAB基础与应用",
+    "credit": 1.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE38301",
+    "name": "软件技术基础",
+    "credit": 2.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE47201",
+    "name": "系统辨识",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE47200",
+    "name": "人工智能及应用",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MAT36200",
+    "name": "计算方法",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE26101",
+    "name": "控制系统MATLAB仿真",
+    "credit": 1.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MEE22201",
+    "name": "工程力学",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE33202",
+    "name": "信号与系统",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE34201",
+    "name": "电力拖动与运动控制",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE21402",
+    "name": "EDA原理及其应用",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE31200",
+    "name": "电力电子技术",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE34102",
+    "name": "复杂工业过程先进控制与实时优化",
+    "credit": 1.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE36200",
+    "name": "模式识别与机器学习",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE36301",
+    "name": "嵌入式系统",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE33200",
+    "name": "计算机网络",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE45207",
+    "name": "智能控制",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE44203",
+    "name": "计算机控制系统",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE44200",
+    "name": "最优控制",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE33300",
+    "name": "数字信号处理",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CHE48000",
+    "name": "化工安全评价",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE44201",
+    "name": "先进控制技术",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE43300",
+    "name": "数字图像处理",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CHE21005",
+    "name": "化工原理实验",
+    "credit": 0.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE39301",
+    "name": "自主移动机器人",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE34202",
+    "name": "机器人导论",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE35100",
+    "name": "PLC原理及实验",
+    "credit": 1.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE44200",
+    "name": "工厂电气控制",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE44100",
+    "name": "过程设计控制与优化",
+    "credit": 1.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE36200",
+    "name": "系统工程导论",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE36201",
+    "name": "系统建模与仿真",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE45201",
+    "name": "虚拟仪器技术",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE49001",
+    "name": "学科前沿讲座",
+    "credit": 1.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MXI35200",
+    "name": "当代世界经济与政治",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE46002",
+    "name": "嵌入式系统创新应用与实践",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE21001",
+    "name": "智能硬件设计与开发",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE31002",
+    "name": "电子技术创新设计",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE47002",
+    "name": "智能制造系统工程创新与实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE49000",
+    "name": "机器人仿真与应用实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE45003",
+    "name": "智能制造工程实训",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE49207",
+    "name": "控制系统辅助设计",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "GST14027",
+    "name": "人工智能导论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育课程"
+   },
+   {
+    "code": "ART19001",
+    "name": "美育实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育实践"
+   },
+   {
+    "code": "LAB21002",
+    "name": "劳动与社会实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育实践"
+   }
+  ]
+ },
+ "自动化（卓越工程师计划）": {
+  "major": "自动化（卓越工程师计划）",
+  "college": "信息科学与技术学院",
+  "grade": 2025,
+  "duration": "4年",
+  "grad_credit": 149,
+  "degree": "工学",
+  "section_req": {
+   "公共基础必修": 68.0,
+   "实践环节必修": 27.5,
+   "公共基础选修": 1.0,
+   "专业必修": 30.0,
+   "专业选修": 14.0,
+   "实践环节选修": 1.0,
+   "素质教育课程": 4.0,
+   "素质教育实践": 4.0,
+   "公共基础必修（研究生）": 7.0
+  },
+  "n_courses": 94,
+  "parsed_credit": 173.0,
+  "sections": {
+   "公共基础必修": 66.0,
+   "实践环节必修": 19.0,
+   "公共基础选修": 10.0,
+   "专业必修": 30.0,
+   "专业选修": 22.5,
+   "实践环节选修": 11.0,
+   "素质教育课程": 1.0,
+   "素质教育实践": 2.0,
+   "公共基础必修（研究生）": 11.5
+  },
+  "courses": [
+   {
+    "code": "MXI14401",
+    "name": "习近平新时代中国特色社会主义思想概论",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI19001",
+    "name": "思想道德与法治实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13904",
+    "name": "高等数学A（I）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT11501",
+    "name": "线性代数A",
+    "credit": 3.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10001",
+    "name": "体育(Ⅰ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11220",
+    "name": "大学英语1",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "CSE17001",
+    "name": "大学计算机",
+    "credit": 0.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI17202",
+    "name": "思想道德与法治",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "HSS18201",
+    "name": "大学生心理健康教育",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "CSE14204",
+    "name": "C语言程序设计",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY11004",
+    "name": "普通物理习题课（I）",
+    "credit": 0.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10200",
+    "name": "军事理论",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10002",
+    "name": "体育(Ⅱ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI12400",
+    "name": "中国近现代史纲要",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI10011",
+    "name": "国家安全教育",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13905",
+    "name": "高等数学A（II）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT10401",
+    "name": "概率论与数理统计B",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11221",
+    "name": "大学英语2",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY11402",
+    "name": "普通物理B ( I)",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "EEE10101",
+    "name": "文献检索与科技论文写作",
+    "credit": 1.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13501",
+    "name": "复变函数与积分变换（A）",
+    "credit": 3.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE20000",
+    "name": "体育(Ⅲ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI21400",
+    "name": "马克思主义基本原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG22101",
+    "name": "英语读写（III）",
+    "credit": 1.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "EEE10001",
+    "name": "实验室技术安全与管理",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY11403",
+    "name": "普通物理B (II)",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "EEE10002",
+    "name": "工程伦理学",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE20001",
+    "name": "体育(Ⅳ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI13401",
+    "name": "毛泽东思想和中国特色社会主义理论体系概论",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG33216",
+    "name": "学术英语读写",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "BUS16200",
+    "name": "技术经济与企业管理",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE19200",
+    "name": "军事技能",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "PHY11000",
+    "name": "大学物理实验(I)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "PHY11001",
+    "name": "大学物理实验(II)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "ENG22001",
+    "name": "英语听说（III）",
+    "credit": 0.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "MEE29201",
+    "name": "工程训练",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE21002",
+    "name": "电子技术实验（Ⅰ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE27201",
+    "name": "信息物理系统实践",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE21003",
+    "name": "电子技术实验(Ⅱ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE29101",
+    "name": "电工电子实习",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "ENG33001",
+    "name": "高级英语听说",
+    "credit": 0.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE29301",
+    "name": "认识实习",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39103",
+    "name": "应用软件实践",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39000",
+    "name": "电气工程综合实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39306",
+    "name": "生产实习",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "MXI14002",
+    "name": "习近平生态文明思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10009",
+    "name": "中国共产党的光辉历程和伟大成就",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10007",
+    "name": "社会主义道路探索史",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14005",
+    "name": "习近平新时代中国特色社会主义思想在京华大地生动实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14004",
+    "name": "中华民族共同体概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14001",
+    "name": "习近平文化思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10010",
+    "name": "中国共产党人的精神谱系",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10006",
+    "name": "中国共产党与改革开放",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14003",
+    "name": "习近平法治思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10008",
+    "name": "社会主义五百年",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "PHY11003",
+    "name": "普通物理习题课（II）",
+    "credit": 0.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "EEE11401",
+    "name": "电路原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE21410",
+    "name": "数字电子技术",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE21503",
+    "name": "模拟电子技术",
+    "credit": 3.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE35400",
+    "name": "微机原理及接口技术",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE34402",
+    "name": "自动控制原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE34402",
+    "name": "线性系统理论",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE35404",
+    "name": "自动化装置（I）",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE35405",
+    "name": "自动检测技术及仪表",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CHE21222",
+    "name": "化工原理",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE44500",
+    "name": "过程控制工程",
+    "credit": 3.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE14001",
+    "name": "Python语言程序设计",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE47200",
+    "name": "人工智能及应用",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE26101",
+    "name": "控制系统MATLAB仿真",
+    "credit": 1.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE27202",
+    "name": "模式识别理论及应用",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE36201",
+    "name": "系统工程理论",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE34102",
+    "name": "复杂工业过程先进控制与实时优化",
+    "credit": 1.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE42200",
+    "name": "DSP原理及应用",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE35206",
+    "name": "自动化装置（II）",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE34202",
+    "name": "机器人导论",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE34205",
+    "name": "智能控制理论及应用",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE43300",
+    "name": "数字图像处理",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE35203",
+    "name": "现场总线技术",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE46002",
+    "name": "嵌入式系统创新应用与实践",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE31002",
+    "name": "电子技术创新设计",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE47002",
+    "name": "智能制造系统工程创新与实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE45203",
+    "name": "过程监测技术实践（案例课程）",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE46201",
+    "name": "系统建模技术实训（案例课程）",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE44201",
+    "name": "高级过程控制实验（案例课程）",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE44202",
+    "name": "先进控制技术实训（案例课程）",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "GST14027",
+    "name": "人工智能导论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育课程"
+   },
+   {
+    "code": "ART19001",
+    "name": "美育实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育实践"
+   },
+   {
+    "code": "LAB21002",
+    "name": "劳动与社会实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育实践"
+   },
+   {
+    "code": "MXI32001",
+    "name": "硕士思想政治理论课-2",
+    "credit": 1.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修（研究生）"
+   },
+   {
+    "code": "MXI34201",
+    "name": "硕士思想政治理论课-1",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修（研究生）"
+   },
+   {
+    "code": "MAT37201",
+    "name": "最优化方法",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修（研究生）"
+   },
+   {
+    "code": "MAT31201",
+    "name": "矩阵理论及其应用",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修（研究生）"
+   },
+   {
+    "code": "MAT36301",
+    "name": "数值分析",
+    "credit": 2.5,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修（研究生）"
+   },
+   {
+    "code": "MAT35201",
+    "name": "应用数理统计",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修（研究生）"
+   }
+  ]
+ },
+ "自动化类": {
+  "major": "自动化类",
+  "college": "信息科学与技术学院",
+  "grade": 2025,
+  "duration": "4年",
+  "grad_credit": 170,
+  "degree": "",
+  "section_req": {
+   "公共基础必修": 46.0,
+   "专业选修": 12.0,
+   "实践环节必修": 5.0,
+   "公共基础选修": 1.0,
+   "素质教育": 10.0
+  },
+  "n_courses": 35,
+  "parsed_credit": 61.5,
+  "sections": {
+   "公共基础必修": 45.5,
+   "专业选修": 2.0,
+   "实践环节必修": 3.0,
+   "公共基础选修": 10.0,
+   "素质教育": 1.0
+  },
+  "courses": [
+   {
+    "code": "PHE10001",
+    "name": "体育(Ⅰ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI19001",
+    "name": "思想道德与法治实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI17202",
+    "name": "思想道德与法治",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI14401",
+    "name": "习近平新时代中国特色社会主义思想概论",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "CSE17001",
+    "name": "大学计算机",
+    "credit": 0.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT11501",
+    "name": "线性代数A",
+    "credit": 3.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "HSS18201",
+    "name": "大学生心理健康教育",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11220",
+    "name": "大学英语1",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13904",
+    "name": "高等数学A（I）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY11600",
+    "name": "普通物理(Ⅰ)",
+    "credit": 4.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY11004",
+    "name": "普通物理习题课（I）",
+    "credit": 0.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10200",
+    "name": "军事理论",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10002",
+    "name": "体育(Ⅱ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI12400",
+    "name": "中国近现代史纲要",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI10011",
+    "name": "国家安全教育",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MEE11200",
+    "name": "工程制图",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13905",
+    "name": "高等数学A（II）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT10401",
+    "name": "概率论与数理统计B",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "CSE14204",
+    "name": "C语言程序设计",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11221",
+    "name": "大学英语2",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "CSE14001",
+    "name": "Python语言程序设计",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE37000",
+    "name": "信息检索与科技论文写作",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 3,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "PHE19200",
+    "name": "军事技能",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "PHY11000",
+    "name": "大学物理实验(I)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "MXI10007",
+    "name": "社会主义道路探索史",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14002",
+    "name": "习近平生态文明思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14005",
+    "name": "习近平新时代中国特色社会主义思想在京华大地生动实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14004",
+    "name": "中华民族共同体概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10009",
+    "name": "中国共产党的光辉历程和伟大成就",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10010",
+    "name": "中国共产党人的精神谱系",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10008",
+    "name": "社会主义五百年",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10006",
+    "name": "中国共产党与改革开放",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14003",
+    "name": "习近平法治思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14001",
+    "name": "习近平文化思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "GST14027",
+    "name": "人工智能导论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育"
+   }
+  ]
+ },
+ "测控技术与仪器": {
+  "major": "测控技术与仪器",
+  "college": "信息科学与技术学院",
+  "grade": 2025,
+  "duration": "4年",
+  "grad_credit": 169,
+  "degree": "工学",
+  "section_req": {
+   "公共基础必修": 70.5,
+   "实践环节必修": 35.5,
+   "专业必修": 32.5,
+   "专业选修": 18.5,
+   "公共基础选修": 1.0,
+   "实践环节选修": 1.0,
+   "素质教育课程": 5.0,
+   "素质教育实践": 5.0
+  },
+  "n_courses": 101,
+  "parsed_credit": 195.5,
+  "sections": {
+   "公共基础必修": 68.5,
+   "实践环节必修": 27.0,
+   "专业必修": 32.5,
+   "专业选修": 49.5,
+   "公共基础选修": 10.0,
+   "实践环节选修": 5.0,
+   "素质教育课程": 1.0,
+   "素质教育实践": 2.0
+  },
+  "courses": [
+   {
+    "code": "MAT13904",
+    "name": "高等数学A（I）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "HSS18201",
+    "name": "大学生心理健康教育",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT11501",
+    "name": "线性代数A",
+    "credit": 3.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11220",
+    "name": "大学英语1",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "CSE17001",
+    "name": "大学计算机",
+    "credit": 0.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI17202",
+    "name": "思想道德与法治",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI19001",
+    "name": "思想道德与法治实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI14401",
+    "name": "习近平新时代中国特色社会主义思想概论",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10001",
+    "name": "体育(Ⅰ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10002",
+    "name": "体育(Ⅱ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT10401",
+    "name": "概率论与数理统计B",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MEE11200",
+    "name": "工程制图",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI10011",
+    "name": "国家安全教育",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY11004",
+    "name": "普通物理习题课（I）",
+    "credit": 0.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI12400",
+    "name": "中国近现代史纲要",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13905",
+    "name": "高等数学A（II）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10200",
+    "name": "军事理论",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11221",
+    "name": "大学英语2",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "CSE14204",
+    "name": "C语言程序设计",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY11600",
+    "name": "普通物理(Ⅰ)",
+    "credit": 4.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE20000",
+    "name": "体育(Ⅲ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY21601",
+    "name": "普通物理(Ⅱ)",
+    "credit": 4.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI21400",
+    "name": "马克思主义基本原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11222",
+    "name": "大学英语3",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13501",
+    "name": "复变函数与积分变换（A）",
+    "credit": 3.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI13401",
+    "name": "毛泽东思想和中国特色社会主义理论体系概论",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE20001",
+    "name": "体育(Ⅳ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11223",
+    "name": "大学英语4",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "BUS16200",
+    "name": "技术经济与企业管理",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENV20100",
+    "name": "环境工程基础",
+    "credit": 1.5,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE19200",
+    "name": "军事技能",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "PHY11000",
+    "name": "大学物理实验(I)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE19000",
+    "name": "程序设计实训",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "PHY11001",
+    "name": "大学物理实验(II)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE21002",
+    "name": "电子技术实验（Ⅰ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE27201",
+    "name": "信息物理系统实践",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "MEE29201",
+    "name": "工程训练",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE29101",
+    "name": "电工电子实习",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE21003",
+    "name": "电子技术实验(Ⅱ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39103",
+    "name": "应用软件实践",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CHE49000",
+    "name": "化工过程与控制仿真实习",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE29302",
+    "name": "认识实习",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39201",
+    "name": "电子技术课程设计",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39307",
+    "name": "生产实习",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE49606",
+    "name": "测控系统课程设计",
+    "credit": 4.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE45202",
+    "name": "测控系统综合实践",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE21410",
+    "name": "数字电子技术",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE11401",
+    "name": "电路原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE33202",
+    "name": "信号与系统",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE34402",
+    "name": "自动控制原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE21503",
+    "name": "模拟电子技术",
+    "credit": 3.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE35400",
+    "name": "微机原理及接口技术",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE36403",
+    "name": "嵌入式系统原理",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE35504",
+    "name": "传感器原理",
+    "credit": 3.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE35505",
+    "name": "检测技术及仪器",
+    "credit": 3.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE35406",
+    "name": "测控系统设计",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE35201",
+    "name": "误差理论与数据处理",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE14001",
+    "name": "Python语言程序设计",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE37000",
+    "name": "信息检索与科技论文写作",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 3,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE26100",
+    "name": "MATLAB基础与应用",
+    "credit": 1.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE38301",
+    "name": "软件技术基础",
+    "credit": 2.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE21300",
+    "name": "EDA原理及其应用",
+    "credit": 2.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE26101",
+    "name": "控制系统MATLAB仿真",
+    "credit": 1.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE47200",
+    "name": "人工智能及应用",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MEE22201",
+    "name": "工程力学",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MAT36200",
+    "name": "计算方法",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE34200",
+    "name": "现代控制理论",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MEE34300",
+    "name": "精密机械与仪器",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE45201",
+    "name": "虚拟仪器技术",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE44201",
+    "name": "过程控制工程",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE35407",
+    "name": "自动化装置",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE44203",
+    "name": "计算机控制系统",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE47201",
+    "name": "智能检测技术",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "PHY32203",
+    "name": "光电检测技术",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE45202",
+    "name": "生物化学传感器",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE45200",
+    "name": "多传感器信息融合",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE34204",
+    "name": "微机电系统（MEMS）",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE33300",
+    "name": "数字信号处理",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MXI35200",
+    "name": "当代世界经济与政治",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE32300",
+    "name": "DSP原理与应用",
+    "credit": 2.5,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE49002",
+    "name": "测控学科前沿讲座",
+    "credit": 1.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE45200",
+    "name": "机器视觉检测技术",
+    "credit": 2.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MXI10009",
+    "name": "中国共产党的光辉历程和伟大成就",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14005",
+    "name": "习近平新时代中国特色社会主义思想在京华大地生动实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14002",
+    "name": "习近平生态文明思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14004",
+    "name": "中华民族共同体概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10007",
+    "name": "社会主义道路探索史",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14003",
+    "name": "习近平法治思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14001",
+    "name": "习近平文化思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10010",
+    "name": "中国共产党人的精神谱系",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10008",
+    "name": "社会主义五百年",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10006",
+    "name": "中国共产党与改革开放",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "PHY11003",
+    "name": "普通物理习题课（II）",
+    "credit": 0.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "EEE21001",
+    "name": "智能硬件设计与开发",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "CSE46002",
+    "name": "嵌入式系统创新应用与实践",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE31002",
+    "name": "电子技术创新设计",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE47002",
+    "name": "智能制造系统工程创新与实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE35001",
+    "name": "检测与自动化装置应用实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "GST14027",
+    "name": "人工智能导论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育课程"
+   },
+   {
+    "code": "ART19001",
+    "name": "美育实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育实践"
+   },
+   {
+    "code": "LAB21002",
+    "name": "劳动与社会实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育实践"
+   }
+  ]
+ },
+ "电子信息工程": {
+  "major": "电子信息工程",
+  "college": "信息科学与技术学院",
+  "grade": 2025,
+  "duration": "4年",
+  "grad_credit": 169,
+  "degree": "工学",
+  "section_req": {
+   "公共基础必修": 66.5,
+   "实践环节必修": 35.5,
+   "专业必修": 33.5,
+   "专业选修": 20.5,
+   "公共基础选修": 1.0,
+   "实践环节选修": 2.0,
+   "素质教育课程": 5.0,
+   "素质教育实践": 5.0
+  },
+  "n_courses": 111,
+  "parsed_credit": 221.5,
+  "sections": {
+   "公共基础必修": 64.5,
+   "实践环节必修": 27.0,
+   "专业必修": 33.5,
+   "专业选修": 74.0,
+   "公共基础选修": 10.0,
+   "实践环节选修": 9.5,
+   "素质教育课程": 1.0,
+   "素质教育实践": 2.0
+  },
+  "courses": [
+   {
+    "code": "HSS18201",
+    "name": "大学生心理健康教育",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI14401",
+    "name": "习近平新时代中国特色社会主义思想概论",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13904",
+    "name": "高等数学A（I）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI17202",
+    "name": "思想道德与法治",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT11501",
+    "name": "线性代数A",
+    "credit": 3.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10001",
+    "name": "体育(Ⅰ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11220",
+    "name": "大学英语1",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI19001",
+    "name": "思想道德与法治实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13905",
+    "name": "高等数学A（II）",
+    "credit": 5.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT10401",
+    "name": "概率论与数理统计B",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI10011",
+    "name": "国家安全教育",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI12400",
+    "name": "中国近现代史纲要",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11221",
+    "name": "大学英语2",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY11600",
+    "name": "普通物理(Ⅰ)",
+    "credit": 4.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10200",
+    "name": "军事理论",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE10002",
+    "name": "体育(Ⅱ)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11222",
+    "name": "大学英语3",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI21400",
+    "name": "马克思主义基本原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE20000",
+    "name": "体育(Ⅲ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHY21601",
+    "name": "普通物理(Ⅱ)",
+    "credit": 4.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MAT13501",
+    "name": "复变函数与积分变换（A）",
+    "credit": 3.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE20001",
+    "name": "体育(Ⅳ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENG11223",
+    "name": "大学英语4",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "MXI13401",
+    "name": "毛泽东思想和中国特色社会主义理论体系概论",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "BUS16200",
+    "name": "技术经济与企业管理",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "ENV20100",
+    "name": "环境工程基础",
+    "credit": 1.5,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "公共基础",
+    "section": "公共基础必修"
+   },
+   {
+    "code": "PHE19200",
+    "name": "军事技能",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "PHY11000",
+    "name": "大学物理实验(I)",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE27202",
+    "name": "高级语言程序实践",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "MEE29001",
+    "name": "工程训练",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE19000",
+    "name": "程序设计实训",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "PHY11001",
+    "name": "大学物理实验(II)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE21002",
+    "name": "电子技术实验（Ⅰ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE29101",
+    "name": "电工电子实习",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE21003",
+    "name": "电子技术实验(Ⅱ)",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE27201",
+    "name": "信息物理系统实践",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE29303",
+    "name": "认识实习",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39103",
+    "name": "应用软件实践",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE33001",
+    "name": "信号分析处理与实验",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39201",
+    "name": "电子技术课程设计",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39203",
+    "name": "数字系统设计",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE39308",
+    "name": "生产实习",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 3,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "EEE49602",
+    "name": "电子信息综合课程设计",
+    "credit": 3.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "必修",
+    "category": "实践环节",
+    "section": "实践环节必修"
+   },
+   {
+    "code": "CSE14404",
+    "name": "程序设计基础",
+    "credit": 3.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE11401",
+    "name": "电路原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE21410",
+    "name": "数字电子技术",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE21503",
+    "name": "模拟电子技术",
+    "credit": 3.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE22501",
+    "name": "电磁场与电磁波",
+    "credit": 3.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE33500",
+    "name": "信号与系统",
+    "credit": 3.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "CSE35400",
+    "name": "微机原理及接口技术",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE32500",
+    "name": "通信原理",
+    "credit": 3.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE33400",
+    "name": "数字信号处理",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE33200",
+    "name": "随机信号",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "EEE31300",
+    "name": "通信电子电路",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "必修",
+    "category": "专业",
+    "section": "专业必修"
+   },
+   {
+    "code": "MEE11200",
+    "name": "工程制图",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE10201",
+    "name": "信息与智能科学导论",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE10102",
+    "name": "计算机科学导论",
+    "credit": 1.5,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE24302",
+    "name": "汇编语言程序设计",
+    "credit": 2.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE10101",
+    "name": "大数据科学与技术导论",
+    "credit": 1.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE38301",
+    "name": "软件技术基础",
+    "credit": 2.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE26100",
+    "name": "MATLAB基础与应用",
+    "credit": 1.5,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE34402",
+    "name": "自动控制原理",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE21300",
+    "name": "EDA原理及其应用",
+    "credit": 2.5,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MAT36200",
+    "name": "计算方法",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE37404",
+    "name": "神经网络与深度学习",
+    "credit": 3.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE47200",
+    "name": "人工智能及应用",
+    "credit": 2.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MAT21301",
+    "name": "离散数学(Ⅰ)",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE33301",
+    "name": "计算机网络",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE32300",
+    "name": "微波技术",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE33301",
+    "name": "信息论与编码",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE42300",
+    "name": "现代通信技术",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE37402",
+    "name": "机器学习",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE42200",
+    "name": "天线与电波传播",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE46302",
+    "name": "单片机原理及应用",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE32201",
+    "name": "软件无线电原理及实现",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE31201",
+    "name": "大规模集成电路设计基础",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE36300",
+    "name": "嵌入式系统设计",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE45200",
+    "name": "多传感器信息融合",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE49000",
+    "name": "信息处理新技术系列讲座",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MXI35200",
+    "name": "当代世界经济与政治",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE42000",
+    "name": "微波仿真",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE43300",
+    "name": "数字图像处理",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE32300",
+    "name": "DSP原理与应用",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE34204",
+    "name": "微机电系统（MEMS）",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE33203",
+    "name": "遥感卫星与数字孪生",
+    "credit": 2.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE42303",
+    "name": "移动通信",
+    "credit": 2.5,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "EEE37401",
+    "name": "图像理解与机器视觉",
+    "credit": 3.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "CSE37000",
+    "name": "信息检索与科技论文写作",
+    "credit": 1.0,
+    "year": "2028-2029",
+    "sem": 1,
+    "nature": "选修",
+    "category": "专业",
+    "section": "专业选修"
+   },
+   {
+    "code": "MXI14002",
+    "name": "习近平生态文明思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10007",
+    "name": "社会主义道路探索史",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14004",
+    "name": "中华民族共同体概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10009",
+    "name": "中国共产党的光辉历程和伟大成就",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14005",
+    "name": "习近平新时代中国特色社会主义思想在京华大地生动实践",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14003",
+    "name": "习近平法治思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI14001",
+    "name": "习近平文化思想概论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10006",
+    "name": "中国共产党与改革开放",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10010",
+    "name": "中国共产党人的精神谱系",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "MXI10008",
+    "name": "社会主义五百年",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "PHY11004",
+    "name": "普通物理习题课（I）",
+    "credit": 0.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "PHY11003",
+    "name": "普通物理习题课（II）",
+    "credit": 0.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "公共基础",
+    "section": "公共基础选修"
+   },
+   {
+    "code": "CSE27101",
+    "name": "微信小程序开发与实践",
+    "credit": 1.5,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "CSE32200",
+    "name": "ACM/ICPC程序设计方法与实践",
+    "credit": 2.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "CSE46002",
+    "name": "嵌入式系统创新应用与实践",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE21001",
+    "name": "智能硬件设计与开发",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE31002",
+    "name": "电子技术创新设计",
+    "credit": 1.0,
+    "year": "2026-2027",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE42003",
+    "name": "5G全网仿真实训",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE37001",
+    "name": "神经网络软硬件协同设计",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "EEE41002",
+    "name": "通信电路设计实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 2,
+    "nature": "选修",
+    "category": "实践环节",
+    "section": "实践环节选修"
+   },
+   {
+    "code": "GST14027",
+    "name": "人工智能导论",
+    "credit": 1.0,
+    "year": "2025-2026",
+    "sem": 2,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育课程"
+   },
+   {
+    "code": "ART19001",
+    "name": "美育实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育实践"
+   },
+   {
+    "code": "LAB21002",
+    "name": "劳动与社会实践",
+    "credit": 1.0,
+    "year": "2027-2028",
+    "sem": 1,
+    "nature": "选修",
+    "category": "素质教育",
+    "section": "素质教育实践"
+   }
+  ]
+ }
+}

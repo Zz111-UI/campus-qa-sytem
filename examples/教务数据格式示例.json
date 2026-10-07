@@ -1,0 +1,60 @@
+{
+  "term": "2026-2027-1",
+  "history_complete": false,
+  "timetable_complete": false,
+  "offerings_complete": false,
+  "records": [
+    {
+      "code": "",
+      "name": "高等数学A（I）",
+      "credit": 5.5,
+      "status": "passed",
+      "term": "2025-2026-1"
+    },
+    {
+      "code": "",
+      "name": "程序设计基础",
+      "credit": 3,
+      "status": "enrolled",
+      "term": "2026-2027-1"
+    },
+    {
+      "code": "DEMO-FAIL",
+      "name": "虚构未通过课程",
+      "credit": 2,
+      "status": "failed",
+      "term": "2025-2026-2"
+    }
+  ],
+  "meetings": [
+    {
+      "code": "DEMO-CLASS",
+      "name": "虚构示例课程",
+      "section_id": "demo01",
+      "day": 1,
+      "start": 1,
+      "end": 2,
+      "weeks": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "room": "示例教室101",
+      "campus": "示例校区"
+    }
+  ],
+  "offerings": []
+}

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<!-- 本文件由团队编写为主；标注 [AI编写] 的段落为开发迭代过程中由 AI（千问工作助理）生成的代码，均已标注。 -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>百花学习与生活顾问系统</title>
+<!-- [AI编写] 样式与图表库本地化、缓存版本管理（性能优化轮） -->
+<link rel="stylesheet" href="/static/style.css?v=20261007a">
+<script src="/static/echarts.min.js" defer></script>
+</head>
+<body>
+
+<!-- ========== 登录/注册（弹层，游客可直接跳过） ========== -->
+<div id="login-page" class="login-wrap hidden">
+  <div class="login-card">
+    <div class="brand">
+      <div class="logo">百花</div>
+      <h1>百花学习与生活顾问系统</h1>
+      <p class="sub">面向高校学生的一站式校园生活与学业规划智能体</p>
+    </div>
+    <button id="btn-guest" class="btn-ghost btn-guest">先随便逛逛（无需登录）→</button>
+    <!-- 登录表单 -->
+    <form id="login-form">
+      <!-- [AI编写] 登录表单演示账号占位提示文案（文案修订轮） -->
+      <label>手机号<input id="login-phone" placeholder="演示时填 demo001～demo007 任意一个" autocomplete="tel"></label>
+      <label>密码<input id="login-pw" type="password" placeholder="演示密码：123456" autocomplete="current-password"></label>
+      <div id="login-err" class="err"></div>
+      <button type="submit" class="btn-primary">登 录</button>
+      <p class="switch-line">还没有账号？<a href="javascript:void(0)" id="go-register">学生注册</a>
+        ｜<a href="javascript:void(0)" id="go-forgot">忘记密码？</a></p>
+    </form>
+
+    <!-- 注册表单（默认隐藏） -->
+    <form id="register-form" class="hidden">
+      <p class="form-note">📌 请完整填写以下信息——你的<b>学院、专业、年级</b>是系统匹配真实培养方案、生成<b>选课推荐与学业规划</b>的依据；<b>手机号</b>用于登录和找回密码。</p>
+      <div class="two-col">
+        <label>学号 *<input id="reg-id" placeholder="6-12 位数字" required></label>
+        <label>姓名 *<input id="reg-name" placeholder="真实姓名" required></label>
+      </div>
+      <div class="two-col">
+        <label>手机号 *<input id="reg-phone" placeholder="11 位手机号，用于登录/找回密码" required></label>
+        <label>入学年级 *<input id="reg-grade" type="number" placeholder="如 2025" required></label>
+      </div>
+      <div class="two-col">
+        <label>密码 *<input id="reg-pw" type="password" placeholder="至少 6 位" required></label>
+        <label>确认密码 *<input id="reg-pw2" type="password" placeholder="再输一次" required></label>
+      </div>
+      <label>学院 *<select id="reg-college" required></select></label>
+      <label>专业 *<select id="reg-major" required></select></label>
+      <p class="muted" id="reg-plan-tip"></p>
+      <div class="two-col">
+        <label>校区 *<select id="reg-campus" required></select></label>
+        <label>学业目标 *<select id="reg-goal" required></select></label>
+      </div>
+      <label>学习偏好（可不填）<input id="reg-pref" placeholder="如：偏好上午排课 / 想多留自学时间"></label>
+      <div id="reg-err" class="err"></div>
+      <button type="submit" class="btn-primary">注册并登录</button>
+      <p class="switch-line">已有账号？<a href="javascript:void(0)" id="go-login">返回登录</a></p>
+    </form>
+
+    <!-- 忘记密码（默认隐藏） -->
+    <form id="forgot-form" class="hidden">
+      <p class="form-note">🔑 通过注册时绑定的手机号验证码重置密码。</p>
+      <div class="two-col">
+        <label>手机号<input id="fg-phone" placeholder="注册时的手机号" required></label>
+        <label>验证码
+          <div class="code-row">
+            <input id="fg-code" placeholder="6 位验证码" required>
+            <button type="button" id="fg-send" class="btn-primary btn-sm-inline">获取验证码</button>
+          </div>
+        </label>
+      </div>
+      <p id="fg-tip" class="muted"></p>
+      <label>新密码<input id="fg-pw" type="password" placeholder="至少 6 位" required></label>
+      <div id="fg-err" class="err"></div>
+      <button type="submit" class="btn-primary">重置密码并返回登录</button>
+      <p class="switch-line"><a href="javascript:void(0)" id="fg-back">返回登录</a></p>
+    </form>
+
+    <!-- [AI编写] 登录页演示账号提示信息文案（文案修订轮） -->
+    <p class="hint">演示账号（手机号栏填写）：demo001～demo007，密码均为 123456<br>个性化服务：登录后在弹窗填写 study001～study007，密码同为 123456（demo001 与 study001 为同一人）<br>注册与找回密码信息保存在系统账号库中，重启不丢失</p>
+  </div>
+</div>
+
+<!-- ========== 主界面 ========== -->
+<div id="main-page" class="hidden">
+  <header>
+    <div class="brand-mini">百花 · 学习与生活顾问</div>
+    <nav>
+      <button data-tab="home" class="tab-btn active">业务大厅</button>
+      <button data-tab="chat" class="tab-btn">智能问答</button>
+      <button data-tab="graph" class="tab-btn">学业规划</button>
+      <button data-tab="erke" class="tab-btn">二课积分</button>
+      <button data-tab="profile" class="tab-btn">我的资料</button>
+      <button data-tab="education" class="tab-btn">个性化服务</button>
+      <button data-tab="faq" class="tab-btn">FAQ 与反馈</button>
+    </nav>
+    <div class="user-box">
+      <span id="user-name"></span>
+      <button id="btn-login-open" class="btn-ghost">登录 / 注册</button>
+      <button id="btn-logout" class="btn-ghost hidden">退出</button>
+    </div>
+  </header>
+
+  <div id="notice-bar" class="notice"></div>
+
+  <!-- 业务大厅：登录后首页，点选要办理的业务 -->
+  <section id="tab-home" class="panel">
+    <div class="card hello-card">
+      <div class="hello-left">
+        <h2 id="hello-name">你好</h2>
+        <p id="hello-meta" class="muted"></p>
+      </div>
+      <div class="hello-right">
+        <!-- [AI编写] 欢迎页右侧个性化服务入口按钮（合并轮） -->
+        <button type="button" class="pill personal-entry" data-open-personal>✦ 个性化服务 ›</button>
+        <span class="pill" id="pill-goal">目标：未填写</span>
+        <span class="pill" id="pill-campus">校区：-</span>
+      </div>
+    </div>
+
+    <h3 class="group-title">学习顾问 · 学业事务</h3>
+    <div class="biz-grid">
+      <button class="biz-card" data-ask="我下学期该选什么课，注意别和先修课冲突">
+        <span class="biz-ico">💬</span>
+        <b>选课与学业咨询</b>
+        <i>用大白话提问，结合你的画像给建议</i>
+      </button>
+      <button class="biz-card" data-go="erke">
+        <span class="biz-ico">🏅</span>
+        <b>二课堂积分管理</b>
+        <i>活动录入 · 分数自动核算 · 达标进度提醒</i>
+      </button>
+      <button class="biz-card" data-go="graph">
+        <span class="biz-ico">🗺</span>
+        <b>培养方案与选课规划</b>
+        <i>课程先修图谱 · 模拟排课校验 · 学习路径查询</i>
+      </button>
+    </div>
+
+    <h3 class="group-title">生活顾问 · 校园事务</h3>
+    <div class="biz-grid">
+      <button class="biz-card" data-ask="校园卡丢了怎么挂失补办">
+        <span class="biz-ico">💳</span>
+        <b>校园卡挂失补办</b>
+        <i>办理步骤 · 地点 · 服务时间与来源</i>
+      </button>
+      <button class="biz-card" data-ask="图书馆怎么预约座位，哪里适合自习">
+        <span class="biz-ico">📚</span>
+        <b>图书馆与自习场所</b>
+        <i>座位预约 · 开放时间 · 自习推荐</i>
+      </button>
+      <button class="biz-card" data-ask="生病了在校内怎么就医和报销">
+        <span class="biz-ico">🏥</span>
+        <b>就医与医保报销</b>
+        <i>校医院就诊 · 转诊 · 报销流程</i>
+      </button>
+      <button class="biz-card" data-ask="成绩单和在读证明去哪开">
+        <span class="biz-ico">📄</span>
+        <b>证明开具</b>
+        <i>成绩单 · 在读证明 · 学籍验证</i>
+      </button>
+      <button class="biz-card" data-go="faq">
+        <span class="biz-ico">❓</span>
+        <b>常见问题与反馈</b>
+        <i>高频新生问题 · 知识库未覆盖可提交反馈</i>
+      </button>
+      <button class="biz-card" data-ask="有什么实用的校园生活资讯提醒我">
+        <span class="biz-ico">📢</span>
+        <b>校园生活资讯</b>
+        <i>按时间节点推送防骗、选课、考试提醒</i>
+      </button>
+    </div>
+    <p class="muted center-tip">点击任意卡片即可进入对应业务；带 💬 的卡片会自动向顾问提问</p>
+  </section>
+
+  <!-- 问答 -->
+  <section id="tab-chat" class="panel hidden">
+    <div class="chat-head">
+      <span>一个入口 · 校园事务查知识库附来源；其他问题 <b>AI 通用解答</b>（像豆包一样可聊）</span>
+      <span class="head-right"><span id="llm-mode" class="badge"></span>
+        <button id="btn-chat-new" class="btn-ghost btn-newchat">＋ 新对话</button></span>
+    </div>
+    <div id="chat-box" class="chat-box"></div>
+    <div class="chat-input">
+      <input id="chat-text" placeholder="试试：校园卡丢了怎么办 / 想学人工智能该走哪条课程路径">
+      <button id="chat-send" class="btn-primary">发送</button>
+    </div>
+    <div class="quick">
+      <button class="chip">校园卡丢了怎么办</button>
+      <button class="chip">图书馆怎么预约座位</button>
+      <button class="chip">下学期该选什么课</button>
+      <button class="chip">二课分数够不够</button>
+    </div>
+  </section>
+
+  <!-- 学业规划板块（四模块并列） -->
+  <section id="tab-graph" class="panel hidden">
+    <div class="gsub-bar">
+      <div class="gsub-tabs">
+        <button class="gsub-tab on" data-sub="graph">🕸 课程图谱</button>
+        <button class="gsub-tab" data-sub="ts">📅 课程查询</button>
+        <button class="gsub-tab" data-sub="gp">🎯 目标导向规划</button>
+        <button class="gsub-tab" data-sub="check">✅ 模拟排课校验</button>
+      </div>
+      <div class="gsub-sel">
+        <select id="g-sub-major" title="专业（跟随注册信息，可切换）"></select>
+        <input id="g-sub-grade" type="number" placeholder="年级" style="width:96px">
+      </div>
+    </div>
+    <!-- 镜像隐藏控件：供各子模块统一读取，由全局选择器同步 -->
+    <select id="major-select" class="hidden"></select>
+    <select id="ts-major" class="hidden"></select>
+    <select id="gp-major" class="hidden"></select>
+    <input id="ts-grade" class="hidden"><input id="gp-grade" class="hidden">
+
+    <div class="card" id="plan-card">
+      <h3>我的学业规划 <span class="muted" id="plan-meta"></span></h3>
+      <div id="plan-body" class="plan-body"><p class="muted">加载规划数据中…</p></div>
+    </div>
+
+    <div id="sub-graph" class="gsub-pane">
+      <div class="graph-tools">
+        <input id="path-input" placeholder="输入课程名求先修链，如：自动控制原理">
+        <button id="btn-path" class="btn-primary btn-sm">查路径</button>
+      </div>
+      <div id="graph-canvas" style="height:520px"></div>
+      <div id="path-result" class="path-result"></div>
+      <div class="card" id="tt-card" style="margin-top:12px">
+        <h3>实时课程表 <span class="muted" id="tt-term-label"></span></h3>
+        <p class="muted" id="tt-note">按周一~周日呈现本学期课程，节次作息取自学校作息表（上午 1-5 节 / 下午 6-9 节 / 晚上 10-12 节）。</p>
+        <div id="tt-hint" class="tt-hint"></div>
+        <div id="tt-grid" class="tt-grid"></div>
+        <div id="tt-plan-box" class="tt-plan-box hidden">
+          <h4 id="tt-plan-title">本学期培养方案课程</h4>
+          <div id="tt-plan-list" class="tt-plan-list"></div>
+        </div>
+        <div id="tt-editor" class="tt-editor hidden">
+          <b id="tt-editor-title">添加课程</b>
+          <div class="tt-editor-fields">
+            <label>课程名<input id="tt-f-name" placeholder="如：数据结构"></label>
+            <label>任课教师<input id="tt-f-teacher" placeholder="选填"></label>
+            <label>上课地点<input id="tt-f-room" placeholder="如：主教 A301（选填）"></label>
+            <label>上课周次<input id="tt-f-weeks" placeholder="如：1-16周（选填）"></label>
+            <label>连堂节数<input id="tt-f-span" type="number" min="1" max="6" value="2"></label>
+          </div>
+          <button id="tt-f-save" class="btn-primary btn-sm" type="button">保存</button>
+          <button id="tt-f-cancel" class="tt-btn-line" type="button">取消</button>
+          <span id="tt-f-err" class="err"></span>
+        </div>
+        <div id="tt-import-panel" class="tt-import-panel hidden">
+          <div class="tt-import-tabs">
+            <button class="tt-itab on" data-imode="text" type="button">📋 复制粘贴识别</button>
+            <button class="tt-itab" data-imode="image" type="button">🖼 图片识别</button>
+          </div>
+          <div id="tt-ipane-text" class="tt-ipane">
+            <p class="muted">在教务系统打开「个人课表查询」，按 <b>Ctrl+A</b> 全选、<b>Ctrl+C</b> 复制，粘贴到下面：
+              <a class="tt-jw-link" href="https://jwglxt-proxy3.buct.edu.cn" target="_blank" rel="noopener noreferrer">打开教务管理系统 ↗</a></p>
+            <textarea id="tt-import-text" rows="6"
+              placeholder="把课表内容粘贴到这里，例如：&#10;星期一 第1-2节 1-16周 主教A301 数据结构 张老师&#10;星期三 第5-6节 1-16周 文教205 大学英语3 王老师"></textarea>
+          </div>
+          <div id="tt-ipane-image" class="tt-ipane hidden">
+            <p class="muted">把教务系统里的课表整屏截图传上来，系统用视觉大模型识别（需在 config.py 配 DASHSCOPE_API_KEY）。</p>
+            <input id="tt-import-img" type="file" accept="image/*">
+            <div id="tt-import-preview" class="tt-import-preview"></div>
+          </div>
+          <div class="tt-import-actions">
+            <button id="btn-tt-run" class="btn-primary btn-sm" type="button">开始识别</button>
+            <button id="btn-tt-close" class="tt-btn-line" type="button">收起</button>
+            <span id="tt-import-msg2" class="muted"></span>
+          </div>
+          <div id="tt-import-result" class="tt-import-result hidden"></div>
+        </div>
+        <div class="tt-import">
+          <span class="tt-import-tip">还没有你的课表？</span>
+          <a id="btn-tt-jw" class="tt-jw-link" href="https://jwglxt-proxy3.buct.edu.cn" target="_blank" rel="noopener noreferrer">去教务系统复制课表 ↗</a>
+          <button id="btn-tt-import" class="btn-primary btn-sm" type="button">识别导入</button>
+          <span id="tt-import-msg" class="muted"></span>
+        </div>
+      </div>
+    </div>
+
+    <div id="sub-ts" class="gsub-pane hidden">
+      <div class="card">
+        <h3>学期课表查询（按年级 + 专业有序调取培养方案）</h3>
+        <p class="muted">定位到培养方案中的对应学期，按「必修（分模块）→ 选修池 → 学分进度」有序输出</p>
+        <div class="graph-tools">
+          <select id="ts-term">
+            <option value="0">下学期（默认）</option>
+            <option value="1">第1学期（大一上）</option>
+            <option value="2">第2学期（大一下）</option>
+            <option value="3">第3学期（大二上）</option>
+            <option value="4">第4学期（大二下）</option>
+            <option value="5">第5学期（大三上）</option>
+            <option value="6">第6学期（大三下）</option>
+            <option value="7">第7学期（大四上）</option>
+            <option value="8">第8学期（大四下）</option>
+          </select>
+          <button id="btn-ts" class="btn-primary btn-sm">查询课表</button>
+        </div>
+        <div id="ts-result" class="ts-result"></div>
+      </div>
+    </div>
+
+    <div id="sub-gp" class="gsub-pane hidden">
+      <div class="card">
+        <h3>目标导向学业规划（保研 / 考研 / 出国 / 就业 / 转专业）</h3>
+        <p class="muted">选择毕业目标：选「保研」展开四通道政策解读与条件自评；选「考研」展开六大规划板块；选其他目标则按培养方案逐门打分推荐课程；选「转专业」请再选目标转入专业</p>
+        <div class="goal-pills" id="gp-pills"></div>
+
+        <!-- ===== 保研：目标下挂四通道（点“保研”胶囊显示） ===== -->
+        <div id="gp-baoyan" class="hidden">
+          <div class="by-ch-bar">
+            <span class="by-ch-label">🎓 保研通道</span>
+            <div class="goal-pills" id="by-pills"></div>
+          </div>
+          <div id="by-result" class="ts-result"></div>
+          <div class="by-self-card">
+            <h4>条件自评核对 <span class="muted" id="by-self-note"></span></h4>
+            <p class="muted">填上你的 GPA、六级、排名等信息，上方所选通道会逐条标出 ✅达标 / ❌未达 / ⚪待补</p>
+            <div class="by-form">
+              <label>前三年正考GPA<input id="by-gpa" type="number" step="0.01" min="0" max="4" placeholder="如 3.42"></label>
+              <label>英语六级<input id="by-cet6" type="number" min="0" max="710" placeholder="如 451"></label>
+              <label>综合排名（前%）<input id="by-rank" type="number" step="0.1" min="1" max="100" placeholder="如 18 表示前18%"></label>
+              <label class="by-chk"><input id="by-cadre" type="checkbox">主要学生干部</label>
+              <label class="by-chk"><input id="by-party" type="checkbox">中共党员/预备</label>
+              <label class="by-chk"><input id="by-vol" type="checkbox">志愿服务经历</label>
+              <label class="by-chk"><input id="by-cert" type="checkbox">教资证/已报名</label>
+              <label class="by-chk"><input id="by-res" type="checkbox">科研/竞赛成果</label>
+              <label class="by-chk"><input id="by-adv" type="checkbox">已联系博士导师</label>
+            </div>
+            <button id="btn-by-self" class="btn-primary btn-sm">保存自评并核对</button>
+            <span id="by-self-err" class="err"></span>
+          </div>
+        </div>
+
+        <!-- ===== 考研：目标下挂六大板块（点“考研”胶囊显示） ===== -->
+        <div id="gp-kaoyan" class="hidden">
+          <div class="by-ch-bar">
+            <span class="by-ch-label">📚 考研板块</span>
+            <div class="goal-pills" id="ky-pills"></div>
+          </div>
+          <div class="by-ch-bar hidden" id="ky-sub-bar">
+            <span class="by-ch-label">└ 细分主题</span>
+            <div class="goal-pills" id="ky-sub-pills"></div>
+          </div>
+          <div id="ky-result" class="ts-result"></div>
+        </div>
+
+        <!-- ===== 出国：目标下挂留学项目检索（点“出国”胶囊显示） ===== -->
+        <div id="gp-sa" class="hidden">
+          <div class="sa-search-bar">
+            <input id="sa-query" type="text" placeholder="🔍 搜索地区 / 国家 / 学校 / 专业，如：英国、伯克利、雅思、计算机…">
+            <button id="btn-sa-search" class="btn-primary btn-sm">搜索</button>
+            <button id="btn-sa-clear" class="sa-clear-btn hidden">✕ 返回地区总览</button>
+          </div>
+          <div id="sa-result" class="ts-result"></div>
+        </div>
+
+        <!-- ===== 就业：目标下挂四年任务清单（点“就业”胶囊显示） ===== -->
+        <div id="gp-career" class="hidden">
+          <div id="cr-result" class="ts-result"></div>
+        </div>
+
+<div class="graph-tools" id="gp-normal-tools">
+          <label class="gp-to-major hidden">转入专业 <select id="gp-to-major"></select></label>
+          <button id="btn-gp" class="btn-primary btn-sm">生成规划</button>
+        </div>
+        <div id="gp-result" class="ts-result"></div>
+      </div>
+    </div>
+
+    <div id="sub-check" class="gsub-pane hidden">
+      <div class="card">
+        <h3>模拟排课校验（规则引擎）</h3>
+        <p class="muted">勾选本学期想选的课程，系统校验先修缺失与学分上限</p>
+        <div id="course-checks" class="course-checks"></div>
+        <button id="btn-check" class="btn-primary btn-sm">校验课表</button>
+        <div id="check-result" class="check-result"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 二课（依据校第二课堂成绩评定实施办法） -->
+  <section id="tab-erke" class="panel hidden">
+    <div class="card">
+      <h3>第二课堂成绩总览 <span class="muted" id="erke-total-note"></span></h3>
+      <div id="erke-cats" class="erke-cats"></div>
+      <p class="muted" id="erke-note"></p>
+    </div>
+    <div class="erke-grid">
+      <div class="card">
+        <h3>录入活动得分</h3>
+        <form id="erke-form">
+          <label>计分维度<select id="erke-cat" required></select></label>
+          <label>计分条目<select id="erke-rule" required></select></label>
+          <p class="muted" id="erke-rule-desc"></p>
+          <div id="erke-fields"></div>
+          <label>学期<input id="erke-term" placeholder="如 2025-2026秋"></label>
+          <label>佐证材料（文字说明）<input id="erke-evid" placeholder="如：志愿北京时长截图"></label>
+          <label>佐证图片（可多选，也可拍照上传）
+            <input id="erke-img" type="file" accept="image/*" multiple>
+          </label>
+          <div id="erke-img-preview" class="img-preview"></div>
+          <button class="btn-primary" type="submit">提交录入</button>
+          <div id="erke-err" class="err"></div>
+        </form>
+      </div>
+      <div class="card">
+        <h3>我的录入记录
+          <a id="btn-export" class="btn-sm-link" title="导出全部记录与佐证图片为压缩包">导出记录+图片</a>
+        </h3>
+        <table class="tbl"><thead><tr><th>计分条目</th><th>参数</th><th>维度</th><th>原始分</th><th>佐证图片</th><th></th></tr></thead>
+        <tbody id="erke-rows"></tbody></table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 我的资料（注册信息可修改） -->
+  <section id="tab-profile" class="panel hidden">
+    <div class="card">
+      <h3>我的资料</h3>
+      <p class="muted">填错了可以在这里修改。学号是账号身份不可更改；修改专业、年级或学业目标后，
+        选课推荐与学业规划将<b>即时按新信息重新计算</b>。</p>
+      <form id="profile-form">
+        <div class="two-col">
+          <label>学号（不可修改）<input id="pf-id" readonly class="ro"></label>
+          <label>姓名 *<input id="pf-name" required></label>
+        </div>
+        <div class="two-col">
+          <label>手机号 *<input id="pf-phone" placeholder="用于登录/找回密码" required></label>
+          <label>入学年级 *<input id="pf-grade" type="number" required></label>
+        </div>
+        <div class="two-col">
+          <label>学院 *<select id="pf-college" required></select></label>
+          <label>专业 *<select id="pf-major" required></select></label>
+        </div>
+        <p class="muted" id="pf-plan-tip"></p>
+        <div class="two-col">
+          <label>校区 *<select id="pf-campus" required></select></label>
+          <label>学业目标 *<select id="pf-goal" required></select></label>
+        </div>
+        <label>学习偏好<input id="pf-pref" placeholder="如：偏好上午排课 / 想多留自学时间"></label>
+        <div id="pf-err" class="err"></div>
+        <div class="pf-actions">
+          <button type="submit" class="btn-primary btn-save">保存修改</button>
+          <span class="muted" id="pf-msg"></span>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="tab-education" class="panel hidden">
+    <div class="card">
+      <div class="personal-service-head"><h3>个性化服务 · 模拟学业数据</h3><button id="edu-skip" type="button" class="personal-service-back">返回业务大厅</button></div>
+      <p class="edu-note">竞赛演示数据，全部虚构，不连接真实教务系统。网站登录与个性化服务使用两个独立窗口、两套账号密码，并关联同一用户。</p>
+      <p class="muted">登录网站不会自动加载学业数据。点击下方按钮，在个性化服务窗口登录本人的模拟学业账号后，才可查看课程状态、成绩、绩点、课表和二课堂信息。</p>
+      <button type="button" class="btn-primary btn-sm-inline" data-open-personal>登录个性化服务 / 更新演示数据</button>
+<div class="graph-tools"><label>周次 <input id="timetable-week" type="number" min="1" max="40" value="1"></label>
+          <button id="timetable-refresh" class="btn-primary btn-sm">查看本周</button>
+          <button class="btn-primary btn-sm" data-go-education>登录个性化服务</button></div>
+        <div id="timetable-result" class="table-scroll"><p class="muted">登录并同步课表后显示星期、节次、周次和上课地点。</p></div>
+      <h3>本周课表（演示数据）</h3>
+      <button type="button" class="btn-primary btn-sm-inline hidden" id="demo-logout">退出个性化服务</button>
+      <div id="demo-grades" class="table-scroll"></div>
+
+      <div id="edu-job-panel" class="hidden">
+        <p id="edu-job-status" role="status"></p>
+        <button id="edu-job-finish" class="btn-primary btn-sm">完成读取并预览当前数据</button>
+        <button id="edu-job-cancel" class="btn-primary btn-sm">取消本次采集</button>
+        <p class="muted">当前使用竞赛演示数据；修读记录为选定课程的演示，不据此认定真实毕业或保研资格。</p>
+      </div>
+    </div>
+    <div class="card">
+      <h3>导入与核对课程记录</h3>
+      <p class="muted">可导入标准JSON或手动核对修读记录。手动调整仅影响课程校验，不改动演示数据库中的历次成绩和GPA。</p>
+      <label>选择课程状态与课表文件<input id="edu-file" type="file" accept=".json,application/json"></label>
+      <button id="edu-template" class="btn-primary btn-sm">下载空白格式模板</button>
+      <div class="graph-tools"><label>学期<input id="edu-term" placeholder="2026-2027-1"></label></div>
+      <form id="edu-record-form">
+        <div class="two-col"><label>课程号<input id="edu-code" maxlength="80"></label><label>课程名称<input id="edu-name" required maxlength="160"></label></div>
+        <div class="two-col"><label>学分<input id="edu-credit" type="number" min="0" max="50" step="0.5" required></label>
+          <label>修读状态<select id="edu-state"><option value="passed">已通过</option><option value="enrolled">在修</option><option value="failed">未通过</option><option value="completed">已修，通过情况待核对</option><option value="unknown">状态未知</option><option value="not_taken">未修</option><option value="pending">成绩待发布</option><option value="withdrawn">已退课</option></select></label></div>
+        <button class="btn-primary btn-sm" type="submit">加入待导入记录</button>
+      </form>
+      <label class="consent"><input id="edu-complete" type="checkbox">我已核对这是完整的历史修读记录（未勾选时标记为部分记录）</label>
+      <label class="consent"><input id="edu-timetable-complete" type="checkbox">我已核对课表学期、周次及课程完整性</label>
+      <label id="edu-identity-label" class="consent hidden"><input id="edu-identity-consent" type="checkbox">我确认学校窗口登录的是本人账号，采集学期正确，已核对待确认状态</label>
+      <label class="consent"><input id="edu-import-consent" type="checkbox">我同意将这些课程状态和课表保存在我的百花账号下</label>
+      <div id="edu-records" class="table-scroll"></div>
+      <div id="edu-preview-timetable" class="table-scroll"></div>
+      <div class="graph-tools"><button id="edu-import" class="btn-primary btn-sm">保存导入数据</button>
+        <button id="edu-export" class="btn-primary btn-sm">下载我的数据</button>
+        <button id="edu-clear" class="btn-primary btn-sm">退出并清除当前个人数据展示</button></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="tab-faq" class="panel hidden">
+    <div class="card">
+      <h3>高频新生问题（点击展开答案）</h3>
+      <div id="faq-list"></div>
+    </div>
+    <div class="card">
+      <h3>问题反馈入口</h3>
+      <p class="muted">知识库没覆盖的问题，提交后将用于知识库迭代更新</p>
+      <div class="chat-input">
+        <input id="fb-text" placeholder="例如：宿舍报修电话是多少">
+        <button id="fb-send" class="btn-primary">提交反馈</button>
+      </div>
+      <div id="fb-msg" class="err ok"></div>
+    </div>
+  </section>
+</div>
+
+<dialog id="personal-dialog" class="personal-dialog" aria-labelledby="personal-title">
+  <div class="personal-modal-head"><div class="personal-emblem" aria-hidden="true">✦</div><div><p class="personal-eyebrow">百花 · 你的专属学业建议</p><h2 id="personal-title">开启个性化服务</h2></div><button id="personal-close" type="button" class="personal-close" aria-label="关闭个性化服务">×</button></div>
+  <p class="personal-intro">登录本人的模拟学业账号，启用成绩、修读状态与课程表建议。</p>
+  <div class="personal-benefits"><span>✓ 修读状态与成绩</span><span>✓ 个人课程表</span><span>✓ 二课堂积分</span></div>
+  <p class="personal-account-note">竞赛演示数据 · 全部虚构 · 不连接真实教务系统</p>
+  <p id="personal-account-note" class="personal-account-note hidden">请先登录百花网站，再使用另一套模拟学业账号登录此窗口。</p>
+  <button id="personal-account-login" type="button" class="personal-service-back hidden">先登录百花网站</button>
+  <p id="edu-status" class="muted">网站账号与模拟学业账号分别验证，只能读取绑定本人的数据。</p>
+  <form id="edu-sync-form" autocomplete="off">
+    <label>模拟学业账号<input id="edu-id" autocomplete="off" placeholder="例如 study001" required maxlength="50"></label>
+    <label>模拟学业密码<input id="edu-password" type="password" autocomplete="off" placeholder="与网站密码不同，仅本次输入" required></label>
+    <input id="edu-login-mode" type="hidden" value="automatic"><input id="edu-sync-term" type="hidden" value="2026-2027-1"><input id="edu-challenge" type="hidden">
+    <label class="consent"><input id="edu-consent" type="checkbox">我确认使用绑定本人的虚构演示学业数据，不输入任何真实教务账号密码。</label>
+    <button id="edu-sync-btn" type="submit" class="btn-primary">登录并启用个性化服务</button>
+    <p class="muted">网站手机号栏的 demo001 对应此处的 study001。账号密码输入后清空，不自动回填。</p>
+  </form>
+  <div id="edu-message" class="err" role="status" aria-live="polite"></div>
+  <div class="personal-modal-footer"><span>独立模拟登录 · 不自动回填 · 不读取真实教务数据</span><button id="personal-later" type="button">暂不使用</button></div>
+</dialog>
+
+<script src="/static/app.js?v=20261006i"></script>
+<script src="/static/education.js?v=20261006i"></script>
+
+</body>
+</html>

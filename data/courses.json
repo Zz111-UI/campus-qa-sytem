@@ -1,0 +1,46 @@
+{
+  "化学工程与工艺": {
+    "total_credit_required": 160,
+    "courses": [
+      {"code": "GZ1001", "name": "高等数学A(上)", "credit": 6, "semester": "第1学期", "type": "必修", "prereq": []},
+      {"code": "GZ1002", "name": "高等数学A(下)", "credit": 6, "semester": "第2学期", "type": "必修", "prereq": ["GZ1001"]},
+      {"code": "DL1001", "name": "大学物理(上)", "credit": 4, "semester": "第2学期", "type": "必修", "prereq": ["GZ1001"]},
+      {"code": "HX1101", "name": "无机化学A", "credit": 3, "semester": "第1学期", "type": "必修", "prereq": []},
+      {"code": "HX1102", "name": "有机化学A(上)", "credit": 3, "semester": "第3学期", "type": "必修", "prereq": ["HX1101"]},
+      {"code": "HX1103", "name": "有机化学A(下)", "credit": 3, "semester": "第4学期", "type": "必修", "prereq": ["HX1102"]},
+      {"code": "DL2001", "name": "物理化学(上)", "credit": 3.5, "semester": "第5学期", "type": "必修", "prereq": ["HX1101", "DL1001"]},
+      {"code": "DL2002", "name": "物理化学(下)", "credit": 3.5, "semester": "第6学期", "type": "必修", "prereq": ["DL2001"]},
+      {"code": "HGC1", "name": "化工原理(上)", "credit": 4, "semester": "第5学期", "type": "必修", "prereq": ["DL2001"]},
+      {"code": "HGC2", "name": "化工原理(下)", "credit": 4, "semester": "第6学期", "type": "必修", "prereq": ["HGC1"]},
+      {"code": "JS1001", "name": "计算机程序设计(Python)", "credit": 3, "semester": "第2学期", "type": "必修", "prereq": []},
+      {"code": "WY1001", "name": "大学英语(一二)", "credit": 8, "semester": "第1-2学期", "type": "必修", "prereq": []},
+      {"code": "TJ1001", "name": "思想政治理论课群", "credit": 15, "semester": "第1-4学期", "type": "必修", "prereq": []},
+      {"code": "XK2001", "name": "化工安全与环保(选修)", "credit": 2, "semester": "第6学期", "type": "选修", "prereq": ["HGC1"]},
+      {"code": "RJA1", "name": "反应工程", "credit": 3, "semester": "第7学期", "type": "必修", "prereq": ["HGC2", "DL2002"]},
+      {"code": "BJ1001", "name": "毕业设计(论文)", "credit": 10, "semester": "第8学期", "type": "必修", "prereq": []}
+    ]
+  },
+  "计算机科学与技术": {
+    "total_credit_required": 155,
+    "courses": [
+      {"code": "GZ1001", "name": "高等数学A(上)", "credit": 6, "semester": "第1学期", "type": "必修", "prereq": []},
+      {"code": "GZ1002", "name": "高等数学A(下)", "credit": 6, "semester": "第2学期", "type": "必修", "prereq": ["GZ1001"]},
+      {"code": "LX1001", "name": "线性代数", "credit": 3, "semester": "第2学期", "type": "必修", "prereq": []},
+      {"code": "GZ1003", "name": "概率论与数理统计", "credit": 3, "semester": "第3学期", "type": "必修", "prereq": ["GZ1002"]},
+      {"code": "SJ1001", "name": "离散数学", "credit": 4, "semester": "第2学期", "type": "必修", "prereq": []},
+      {"code": "CS1001", "name": "C语言程序设计", "credit": 4, "semester": "第1学期", "type": "必修", "prereq": []},
+      {"code": "CS1002", "name": "面向对象程序设计(C++)", "credit": 3, "semester": "第2学期", "type": "必修", "prereq": ["CS1001"]},
+      {"code": "CS2001", "name": "数据结构", "credit": 4, "semester": "第3学期", "type": "必修", "prereq": ["CS1002", "SJ1001"]},
+      {"code": "CS2002", "name": "计算机组成原理", "credit": 4, "semester": "第4学期", "type": "必修", "prereq": ["CS1001"]},
+      {"code": "CS2003", "name": "操作系统", "credit": 4, "semester": "第4学期", "type": "必修", "prereq": ["CS2001", "CS2002"]},
+      {"code": "CS2004", "name": "计算机网络", "credit": 3, "semester": "第5学期", "type": "必修", "prereq": ["CS2001"]},
+      {"code": "CS2005", "name": "数据库系统", "credit": 3, "semester": "第4学期", "type": "必修", "prereq": ["CS2001"]},
+      {"code": "RG3001", "name": "软件工程", "credit": 3, "semester": "第5学期", "type": "必修", "prereq": ["CS2001"]},
+      {"code": "XN3001", "name": "人工智能导论", "credit": 3, "semester": "第5学期", "type": "必修", "prereq": ["LX1001", "CS2001"]},
+      {"code": "XW4001", "name": "机器学习(选修)", "credit": 3, "semester": "第6学期", "type": "选修", "prereq": ["XN3001", "GZ1003", "LX1001"]},
+      {"code": "XW4002", "name": "深度学习(选修)", "credit": 2, "semester": "第6学期", "type": "选修", "prereq": ["XN3001"]},
+      {"code": "WY1001", "name": "大学英语(一二)", "credit": 8, "semester": "第1-2学期", "type": "必修", "prereq": []},
+      {"code": "TJ1001", "name": "思想政治理论课群", "credit": 15, "semester": "第1-4学期", "type": "必修", "prereq": []}
+    ]
+  }
+}

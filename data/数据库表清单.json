@@ -1,0 +1,23 @@
+{
+  "course_attempts": 277,
+  "courses": 436,
+  "demo_snapshots": 7,
+  "enrollments": 72,
+  "erke_activities": 94,
+  "erke_dimensions": 5,
+  "erke_records": 94,
+  "erke_rules": 40,
+  "erke_summaries": 35,
+  "gpa_summaries": 35,
+  "metadata": 12,
+  "offering_meetings": 318,
+  "offerings": 278,
+  "personal_service_accounts": 7,
+  "plan_requirements": 32,
+  "preferences": 7,
+  "prerequisites": 129,
+  "semesters": 3,
+  "students": 7,
+  "training_plans": 4,
+  "website_accounts": 7
+}

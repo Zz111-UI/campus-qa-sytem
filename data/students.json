@@ -1,0 +1,62 @@
+[
+  {
+    "student_id": "2024500001",
+    "phone": "13800000001",
+    "password": "123456",
+    "name": "张三",
+    "college": "化学工程学院",
+    "major": "化学工程与工艺",
+    "grade": 2024,
+    "campus": "东校区",
+    "goal": "保研",
+    "preference": "偏好上午排课"
+  },
+  {
+    "student_id": "2024500002",
+    "phone": "13800000002",
+    "password": "123456",
+    "name": "李四",
+    "college": "信息科学与技术学院",
+    "major": "计算机科学与技术",
+    "grade": 2024,
+    "campus": "西校区",
+    "goal": "考研",
+    "preference": "希望多留自学时间"
+  },
+  {
+    "student_id": "2023500003",
+    "phone": "13800000003",
+    "password": "123456",
+    "name": "王五",
+    "college": "信息科学与技术学院",
+    "major": "自动化",
+    "grade": 2023,
+    "campus": "东校区",
+    "goal": "出国",
+    "preference": ""
+  },
+  {
+    "student_id": "111111",
+    "phone": "13800000004",
+    "password": "123456",
+    "name": "演示学生04",
+    "college": "信息科学与技术学院",
+    "major": "测控技术与仪器",
+    "grade": 2025,
+    "campus": "昌平校区",
+    "goal": "保研",
+    "preference": ""
+  },
+  {
+    "student_id": "2025000000",
+    "phone": "13800000005",
+    "password": "123456",
+    "name": "演示学生05",
+    "college": "信息科学与技术学院",
+    "major": "自动化",
+    "grade": 2025,
+    "campus": "东校区",
+    "goal": "保研",
+    "preference": ""
+  }
+]
