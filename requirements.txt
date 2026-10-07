@@ -1,6 +1,7 @@
-# 百花学习与生活顾问系统 · 后端依赖
-# 安装：pip install -r requirements.txt
+# 百花学习与生活顾问系统 - 后端依赖
+# 安装: pip install -r requirements.txt
 fastapi>=0.110
 uvicorn>=0.29
 requests>=2.31
 python-multipart>=0.0.9
+dashscope
